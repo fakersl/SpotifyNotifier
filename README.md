@@ -20,38 +20,34 @@
 
 ## Instalação
 
-### Pré-requisitos
+### Executável
 
-Certifique-se de ter o Python 3.x instalado. Caso não tenha, faça o download e instale o Python a partir de [aqui](https://www.python.org/downloads/).
+Se preferir, você pode baixar o executável diretamente na pasta `dist/` do repositório. O arquivo `app.exe` pode ser executado sem a necessidade de instalação das dependências do Python. Basta executar o arquivo para rodar a aplicação.
 
-### Passo 1: Clonar o repositório
+### Para rodar a versão em código (caso queira modificar ou rodar a versão sem o executável):
 
-Clone o repositório para o seu computador:
+1. Clone o repositório:
 
 ```bash
 git clone https://github.com/fakersl/SpotifyNotifier.git
 cd SpotifyNotifier
 ```
 
-### Passo 2: Instalar dependências
-
-Instale as dependências necessárias com o `pip`:
+2. Instale as dependências necessárias com o `pip`:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Passo 3: Configurar o Spotify
+3. Configure o Spotify:
 
 Para usar a aplicação, você precisará configurar as credenciais do Spotify. Siga os passos abaixo:
 
-1. Acesse [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) e crie uma nova aplicação.
-2. Copie o `Client ID` e `Client Secret` gerados e substitua no arquivo `app.py` nas variáveis `SPOTIFY_CLIENT_ID` e `SPOTIFY_CLIENT_SECRET`.
-3. Defina a URL de redirecionamento no Spotify como `http://localhost:8888/callback`.
+- Acesse [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/applications) e crie uma nova aplicação.
+- Copie o `Client ID` e `Client Secret` gerados e substitua no arquivo `app.py` nas variáveis `SPOTIFY_CLIENT_ID` e `SPOTIFY_CLIENT_SECRET`.
+- Defina a URL de redirecionamento no Spotify como `http://localhost:8888/callback`.
 
-### Passo 4: Executar a aplicação
-
-Após a configuração, execute a aplicação com o comando:
+4. Execute a aplicação:
 
 ```bash
 python app.py
@@ -84,22 +80,9 @@ Sinta-se à vontade para fazer um fork deste repositório, abrir issues ou envia
 
 ## Licença
 
-Este projeto está licenciado sob a Licença Apache 2.0 - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## Selos
-
-![Apache License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
-![Python Version](https://img.shields.io/badge/python-%3E%3D%203.7-blue)
-![Spotify API](https://img.shields.io/badge/Spotify-API-green)
+Este projeto está licenciado sob a Licença Apache - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
 
-Desenvolvido por 💻 por **[Gustavo Santos](https://github.com/fakersl)**.
+Desenvolvido com 💻 por **[Gustavo Santos](https://github.com/fakersl)**.
 ```
-
-### O que foi adicionado:
-1. **Licença Apache 2.0**: A licença foi atualizada para a Apache 2.0.
-2. **Selos**: Adicionei alguns selos para dar mais visibilidade ao projeto, como:
-   - Licença Apache 2.0
-   - Versão do Python
-   - Integração com a API do Spotify
