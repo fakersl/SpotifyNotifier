@@ -62,12 +62,6 @@ Caso deseje que o programa seja iniciado automaticamente com o Windows:
 1. No código, a função `add_to_startup()` já está configurada para adicionar a aplicação ao processo de inicialização do sistema.
 2. Descomente a chamada `add_to_startup()` na linha 146 do `app.py`.
 
-## Screenshots
-
-Aqui estão algumas capturas de tela de como a aplicação se parece quando uma música está sendo tocada:
-
-![SpotifyNotifier](screenshots/spotify-notifier.png)
-
 ## Contribuição
 
 Sinta-se à vontade para fazer um fork deste repositório, abrir issues ou enviar pull requests para melhorar a aplicação. Sua contribuição é sempre bem-vinda!
@@ -84,5 +78,4 @@ Este projeto está licenciado sob a Licença Apache - veja o arquivo [LICENSE](L
 
 ---
 
-Desenvolvido com 💻 por **[Gustavo Santos](https://github.com/fakersl)**.
-```
+💻 Desenvolvido por **[Gustavo Santos](https://github.com/fakersl)**.
