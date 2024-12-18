@@ -84,21 +84,22 @@ Sinta-se à vontade para fazer um fork deste repositório, abrir issues ou envia
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto está licenciado sob a Licença Apache 2.0 - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Selos
+
+![Apache License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)
+![Python Version](https://img.shields.io/badge/python-%3E%3D%203.7-blue)
+![Spotify API](https://img.shields.io/badge/Spotify-API-green)
 
 ---
 
-Desenvolvido com 💻 por **[Gustavo Santos](https://github.com/fakersl)**.
+Desenvolvido por 💻 por **[Gustavo Santos](https://github.com/fakersl)**.
 ```
 
-### O que está incluído:
-
-- **Descrição do projeto**: Explicação geral do que a aplicação faz.
-- **Funcionalidades**: Funcionalidades principais do projeto.
-- **Tecnologias**: Ferramentas e bibliotecas usadas.
-- **Instruções de instalação**: Passo a passo para configurar e rodar o projeto.
-- **Configuração do Spotify**: Instruções para obter as credenciais da API do Spotify.
-- **Iniciar com o sistema**: Como configurar o programa para iniciar automaticamente no Windows.
-- **Screenshots**: Exemplo de captura de tela para mostrar a interface visual.
-- **Contribuição**: Guia para quem quiser contribuir com o projeto.
-- **Licença**: Informações sobre a licença do projeto.
+### O que foi adicionado:
+1. **Licença Apache 2.0**: A licença foi atualizada para a Apache 2.0.
+2. **Selos**: Adicionei alguns selos para dar mais visibilidade ao projeto, como:
+   - Licença Apache 2.0
+   - Versão do Python
+   - Integração com a API do Spotify
