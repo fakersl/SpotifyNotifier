@@ -1,6 +1,3 @@
-Aqui está um exemplo de um README bem elaborado para o seu projeto `SpotifyNotifier`:
-
-```markdown
 # SpotifyNotifier
 
 **SpotifyNotifier** é uma ferramenta de notificação personalizável que permite monitorar a música atual tocando no seu Spotify e exibir notificações interativas diretamente na sua área de trabalho. A aplicação oferece uma experiência minimalista, mostrando a capa do álbum, o nome da música e o artista em uma janela flutuante discreta.
@@ -105,5 +102,3 @@ Desenvolvido com 💻 por **[Gustavo Santos](https://github.com/fakersl)**.
 - **Screenshots**: Exemplo de captura de tela para mostrar a interface visual.
 - **Contribuição**: Guia para quem quiser contribuir com o projeto.
 - **Licença**: Informações sobre a licença do projeto.
-
-Com este README, seu repositório vai parecer muito mais organizado e atrativo para outros desenvolvedores.
