@@ -1,0 +1,4 @@
+spotipy==2.22.1
+tkinter==0.1.0
+pillow==9.4.0
+pystray==0.17.1
